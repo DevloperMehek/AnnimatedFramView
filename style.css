@@ -1,0 +1,253 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    background-color: rgb(194, 134, 23);
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+#container {
+    display: flex;
+    background-color: white;
+    width: 1200px;
+    height: 600px;
+    margin: auto ;
+    margin-top: 5rem;
+    box-shadow: 1rem 1rem .8rem rgb(29, 27, 27);
+}
+
+#box1 {
+    margin-top: 15px;
+    width: 50%;  
+}
+
+
+
+#box1i {
+    background-color: rgb(255, 209, 180);
+    padding-left: 40px;
+    padding-bottom: 23px;
+    /* height: 100%; */
+}
+#box1i h1 {
+    position: relative;
+    font-size: 60px;
+    z-index: 5;
+    font-weight: 100;
+    text-shadow: 5px 5px 5px rgb(115, 91, 91);
+}
+#box1i img {
+    position: relative;
+    margin-left: 170px;
+    z-index: 1;
+}
+#box1i p {
+    position: relative;
+    margin-left: 170px;
+    z-index: 2;
+}
+
+#box1i h2 {
+    position: relative;
+    margin-top: -270px;
+    margin-left: 320px;
+    font-size: 250px;
+    font-weight: 100;
+    z-index: 5;
+    text-shadow: 5px 5px 5px rgb(115, 91, 91);
+}
+
+
+
+
+#box1j {
+    background-color: rgb(236, 140, 169);
+    /* height: 100%; */
+    padding-left: 40px;
+    padding-bottom: 80.5px;
+}
+#box1j h1 {
+    position: relative;
+    /* margin-top: -20px; */
+    font-size: 50px;
+    z-index: 5;
+    font-weight: 100;
+    text-shadow: 5px 5px 5px rgb(115, 91, 91);
+}
+#box1j img {
+    position: relative;
+    margin-left: 200px;
+    z-index: 1;
+}
+#box1j p {
+    position: relative;
+    margin-left: 250px;
+    margin-top: -80px;
+    z-index: 2;
+}
+#box1j h2 {
+    position: relative;
+    margin-top: -120px;
+    margin-left: 350px;
+    font-size: 50px;
+    font-weight: 100;
+    z-index: 5;
+    text-shadow: 5px 5px 5px rgb(115, 91, 91);
+}
+
+
+
+
+
+
+#box2 {
+    margin-top: 15px;
+    width: 50%;
+    
+}
+#box2i {
+    background-color: rgb(245, 199, 221);
+    /* height: 100%; */
+    padding-left: 40px;
+    padding-bottom: 89px;
+}
+#box2i h1 {
+    position: relative;
+    font-size: 40px;
+    z-index: 5;
+    font-weight: 100;
+    text-shadow: 5px 5px 5px rgb(115, 91, 91);
+}
+#box2i img {
+    position: relative;
+    margin-top: 10px;
+    margin-left: 155px;
+    z-index: 1;
+    text-shadow: 5px 5px 5px rgb(115, 91, 91);
+}
+#box2i p {
+    position: relative;
+    margin-left: 70px;
+    margin-top: -40px;
+    z-index: 2;
+}
+#box2i h2 {
+    position: relative;
+    margin-left: 360px;
+    font-size: 50px;
+    font-weight: 100;
+    z-index: 5;
+    transform: rotate(90deg);
+    text-shadow: 5px 5px 5px rgb(115, 91, 91);
+}
+
+
+
+
+
+
+#box2j {
+    background-color: rgb(253, 200, 222);
+    padding-left: 40px;
+    padding-bottom: 116px;
+    /* height: 100%; */
+}
+#box2j h1 {
+    position: relative;
+    font-size: 200px;
+    z-index: 5;
+    font-weight: 100;
+    text-shadow: 5px 5px 5px rgb(115, 91, 91);
+}
+#box2j img {
+    position: relative;
+    margin-left: 130px;
+    height: 250px;
+    width: 200px;
+    z-index: 1;
+}
+#box2j p {
+    position: relative;
+    margin-left: 30px;
+    margin-top: -70px;
+    z-index: 2;
+}
+#box2j h2 {
+    position: relative;
+    margin-top: -100px;
+    margin-left: 400px;
+    font-size: 50px;
+    font-weight: 100;
+    z-index: 5;
+    text-shadow: 5px 5px 5px rgb(115, 91, 91);
+    transform: rotate(90deg);
+}
+
+
+
+
+
+
+.img_box {
+    box-shadow: 5px 5px 5px rgb(98, 81, 81);
+    height: 250px;
+    width: 200px;
+    animation: box_img;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-delay: 8s;
+}
+@keyframes box_img {
+    from {
+        transform: rotate(360deg);
+    }
+
+    to {
+        /* left:240px; */
+    }
+}
+#pera {
+    width: 150px;
+    font-size: 10px;
+}
+.animation_box1{
+    animation: box1;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-delay: 10s;
+}
+@keyframes box1 {
+    from {
+        left: 50px;
+    }
+
+    to {
+        left: 0px;
+    }
+}
+.animation_box2{    
+    animation: box2;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-delay: 10s;
+}
+@keyframes box2 {
+    from {
+        left: -30px;
+    }
+
+    to {
+        left: 0px;
+    }
+}
